@@ -48,7 +48,7 @@ function gerarNumeroAleatorio() {
       return gerarNumeroAleatorio();
    } else {
       listaDeNumerosSorteados.push(numeroEscolhido); // Método .push é usado para adicionar um novo item ao final de uma lista
-      console.log(listaDeNumerosSorteados);
+      // console.log(listaDeNumerosSorteados);
       return numeroEscolhido;
    }
 }
